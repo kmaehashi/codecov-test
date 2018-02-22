@@ -8,4 +8,4 @@ coverage:
     # but do not mark "X" on commit status for now.
     patch:
       default:
-        target: '1%'
+        target: '0%'
