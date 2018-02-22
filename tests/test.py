@@ -5,7 +5,8 @@ from mylib.app import App
 
 class TestApp(unittest.TestCase):
     def test_add(self):
-        self.assertEqual(3, App().add(1, 2))
+        if sys.version_info[0] == 3:
+            self.assertEqual(3, App().add(1, 2))
 
     def test_sub(self):
         if sys.version_info[0] == 2:
