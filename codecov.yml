@@ -7,4 +7,4 @@ coverage:
     # Enable coverage measurement for diff introduced in the pull-request,
 	# but do not mark "X" on commit status for now.
     patch:
-	  target: 0%
+	  target: 1%
